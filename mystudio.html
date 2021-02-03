@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='mystudio.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- header section begins -->
+    <header>
+        <div>
+            <!--icon of studio-->
+            <a href="mystudio.html"><img class="icon" src="Images/IconImg.png" alt="unable to download"></a>
+            <!--Studio name -->
+            <div id="studio-name">
+                <span><b>NINJA</b><br><b>STUDIO</b></span>
+            </div>
+            <!--right portion consisting of search bar and dp-->
+            <div class="bar">
+                <div class="search-bar">
+                    <input type="text" class="search-song" placeholder="Search">
+                    <button type="submit" class="mic"><i class="fa fa-microphone"></i></button>
+                    <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            <div class="notification">
+                <button type="button" class="not"><i class="fa fa-bell"></i></button>
+            </div>
+            <div class="my-pic">
+                <img class="my-pic-align" src="Images/myimage.jpg" alt="unable to load">
+            </div>
+        </div>
+        <!--Hammerburg icon when screen size got reduced-->
+        <div class="dropdown-menu text-right">
+            <div class="bars">
+                <i class="fas fa-align-justify"></i>
+            </div>
+            <div class="dropdown-list nav-menu">
+                <ul class="no-list-style">
+                    <li><a href="">Search</a></li>
+                    <li><a href="">Notification</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <!--Main section begins-->
+    <main>
+        <!--main carousel counter-->
+        <section id="carousel">
+            <div class="carousel">
+                <div class="carousel-row">
+                    <div class="carousel-tile">
+                        <img class="tile__img" src="Images/new_release_one.jpg" alt="NIL">
+                    </div>
+                    <div class="carousel-tile">
+                        <img class="tile__img" src="Images/new_release_one.jpg" alt="NIL">
+                    </div>
+                    <div class="carousel-tile">
+                        <img class="tile__img" src="Images/new_release_one.jpg" alt="NIL">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Latest release container begins and display flex so that u can add any number of items it will align accordingly-->
+        <section id="latest-release">
+            <h1 class="headings">
+                Latest Release
+            </h1>
+            <div class="latest-release-container">
+                <!--item 1-->
+                <div class="item">
+                    <a href="#audio"><img src="Images/latest_release_one.jpg" alt="unable to load"></a>
+                    <div class="info-song">
+                        <a href="#audio"><p class="pointer"><b>Life</b></p></a>
+                        <span>3:47</span>
+                        <br>
+                        <p>Akhil</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#audio"><img src="Images/latest_release_three.jpg" alt="unable to load"></a>
+                    <div class="info-song">
+                        <a href="#audio"><p class="pointer"><b>Zindagi</b></p></a>
+                        <span>3:47</span>
+                        <br>
+                        <p>Akhil</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#audio"><img src="Images/latest_release_two.jpg" alt="unable to load"></a>
+                    <div class="info-song">
+                        <a href="#audio"><p class="pointer"><b>Big Dreams</b></p></a>
+                        <span>3:47</span>
+                        <br>
+                        <p>xyz</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#audio"><img src="Images/latest_release_four.jpg" alt="unable to load"></a>
+                    <div class="info-song">
+                        <a href="#audio"><p class="pointer"><b>Laembrogini</b></p></a>
+                        <span>3:47</span>
+                        <br>
+                        <p>pqr</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Popular artist column starts-->
+        <section id="popular-artist">
+            <h1 class="headings">
+                Popular Artists
+            </h1>
+            <!--popular artist container starts-->
+            <div class="popular-artist-container">
+                <!--Same display flex u can add any no of items as u want it will align itself-->
+                <div>
+                    <img class="pop-img" src="Images/amrit.jpg" alt="unable to load">
+                    <a href="info-artist.html"><img class="pop-icon" src="Images/pop-icon.svg" alt="Unable"></a>
+                    <p class="pointer">Amrit Maan</p>
+                </div>
+                <div>
+                    <img class="pop-img" src="Images/mankirat.jpg" alt="unable to load">
+                    <a href="info-artist.html"><img class="pop-icon" src="Images/pop-icon.svg" alt="Unable"></a>
+                    <p class="pointer">Mankirat</p>
+                </div>
+                <div>
+                    <img class="pop-img" src="Images/sharry.jpg" alt="unable to load">
+                    <a href="info-artist.html"><img class="pop-icon" src="Images/pop-icon.svg" alt="Unable"></a>
+                    <p class="pointer">Sharry Maan</p>
+                </div>
+                <div>
+                    <img class="pop-img" src="Images/sidhu.png" alt="unable to load">
+                    <a href="info-artist.html"><img class="pop-icon" src="Images/pop-icon.svg" alt="Unable"></a>
+                    <p class="pointer">SidhuMosewaala</p>
+                </div>
+                <div>
+                    <img class="pop-img" src="Images/Ammy.jpg" alt="unable to load">
+                    <a href="info-artist.html"><img class="pop-icon" src="Images/pop-icon.svg" alt="Unable"></a>
+                    <p class="pointer">Ammy Virk</p>
+                </div>
+                <div>
+                    <img class="pop-img" src="Images/jassi_gill.jpg" alt="unable to load">
+                    <a href="info-artist.html"><img class="pop-icon" src="Images/pop-icon.svg" alt="Unable"></a>
+                    <p class="pointer">Jassi Gill</p>
+                </div>
+            </div>
+        </section>
+        <!--Stations section starts about type of music-->
+        <section id="stations">
+            <div class="music-stations">
+                <div class="music-icon">
+                    <img src="Images/stations.PNG" alt="Unable to load">
+                </div>
+                <div class="stations">
+                    <p class="station-name"><b>Retro</b></p>
+                    <img class="station-img" src="Images/retro.jpeg" alt="Unable to load">
+                </div>
+                <div class="stations">
+                    <p class="station-name"><b>Pop</b></p>
+                    <img class="station-img" src="Images/pop.jpg" alt="Unable to load">
+                </div>
+                <div class="stations">
+                    <p class="station-name"><b>Chill</b></p>
+                    <img class="station-img" src="Images/chill.jpg" alt="Unable to load">
+                </div>
+                <div class="stations">
+                    <p class="station-name"><b>Love</b></p>
+                    <img class="station-img" src="Images/love.jpg" alt="Unable to load">
+                </div>
+                <div class="stations">
+                    <p class="station-name"><b>Rock</b></p>
+                    <img class="station-img" src="Images/rock.png" alt="Unable to load">
+                </div>
+            </div>
+        </section>
+        <!--Another type of music section containing all animations -->
+        <section id="music-type">
+            <div class="types-container">
+                <div class="type-item">
+                    <p class="type" class="pointer">Party</p>
+                    <img class="type-img" src="Images/party.jpg">
+                </div>
+                <div class="type-item">
+                    <p class="type" class="pointer">WorkOut</p>
+                    <img class="type-img" src="Images/workout.jpg">
+                </div>
+                <div class="type-item">
+                    <p class="type" class="pointer">Romance</p>
+                    <img class="type-img" src="Images/romance.jpg">
+                </div>
+            </div>
+        </section>
+        <!--Latest section starts-->
+        <!--Latest Hindi Section Starts-->
+        <section id="latest-hindi">
+            <h1 class="headings">
+                Latest Hindi
+            </h1>
+            <div class="latest-container">
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_hindi_one.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">PUBG</p></a>
+                    <p>December 29 1999</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_hindi_two.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">Bekhyali</p></a>
+                    <p>January 2 2018</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_hindi_three.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">Rula Diya</p></a>
+                    <p>March 6 2018</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_hindi_four.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">Zingaat</p></a>
+                    <p>June 15 2015</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_hindi_five.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">Thumka</p></a>
+                    <p>July 15 2014</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_hindi_six.png" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">Soldier</p></a>
+                    <p>May 27 2020</p>
+                </div>
+            </div>
+        </section>
+        <!--Latest Punjabi Section Starts-->
+        <section id="latest-punjabi">
+            <h1 class="headings">
+                Latest Punjabi
+            </h1>
+            <div class="latest-container">
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_punjabi_one.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">Mustaang</p></a>
+                    <p>December 29 1999</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_p.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">INK</p></a>
+                    <p>January 2 2018</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_punjabi_three.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">Affair</p></a>
+                    <p>March 6 2018</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_punjabi_four.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">I need Ya</p></a>
+                    <p>June 15 2015</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_punjabi_five.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">Diamond</p></a>
+                    <p>July 15 2014</p>
+                </div>
+                <div class="latest-item">
+                    <a href="#audio"><img src="Images/latest_punjabi_six.jpg" alt="Unable to load"></a>
+                    <a href="#audio"><p class="pointer">Aadat</p></a>
+                    <p>May 27 2020</p>
+                </div>
+            </div>
+            <br><br><br><br>
+        </section>
+    </main>
+    <!--aside section starts containing queue items -->
+    <aside>
+        <h1 class="aside-heading"> 
+            Recently Played
+        </h1>
+        <div class="queue-container">
+            <div class="queue-item">
+                <span>01</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_one.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>Lehanga</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+            <div class="queue-item">
+                <span>02</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_two.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>Yaari</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+            <div class="queue-item">
+                <span>03</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_three.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>Same Blood</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+            <div class="queue-item">
+                <span>04</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_four.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>Filhaal</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+            <div class="queue-item">
+                <span>05</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_five.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>8 Parche</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+            <div class="queue-item">
+                <span>06</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_six.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>Jaluus</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+            <div class="queue-item">
+                <span>07</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_seven.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>Coca</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+            <div class="queue-item">
+                <span>08</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_eight.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>Jaluus</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+            <div class="queue-item">
+                <span>09</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_nine.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>Kon Hoyega</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+            <div class="queue-item">
+                <span>10</span>
+                <a href="#audio"><img class="img-prop" src="Images/queue_ten.jpg" alt="Unable to load"></a>
+                <a href="#audio"><span>Kala Dooriyan</span></a>
+                <i class="far fa-heart media"></i>
+            </div>
+        </div>
+    </aside>
+    <!--Footer section starts appears only when any song is clicked-->
+    <footer>
+        <div id="audio" class="audio-container">
+            <img class="song-image" src="Images/queue_one.jpg" alt="unable to load">
+            <div id="song-name">
+                <span><b><marquee>Lehnga</marquee></b><br><b>Jass Manak</b></span>
+            </div>
+            <div id="footer-icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div id="footer-icon">
+                <i class="fas fa-ban"></i>
+            </div>
+            <div id ="shuffle">
+                <i class="fas fa-random"></i>
+            </div>
+            <div id="rewind">
+                <i class="fas fa-backward"></i>
+            </div>
+            <div id="play">
+                <i class="far fa-play-circle"></i>
+            </div>
+            <div id="forward">
+                <i class="fas fa-forward"></i>
+            </div>
+            <div id="rewind">
+                <i class="fas fa-redo-alt"></i>
+            </div>
+            <div id="playlist">
+                <i class="fab fa-playstation"></i>
+            </div>
+            <div id="headphones">
+                <i class="fas fa-headphones"></i>
+            </div>
+            <div id="headphones">
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div id="sound">
+                <i class="fab fa-soundcloud"></i>
+            </div>
+            <div id="expand">
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+    </footer>
+    </section>
+</body>
+</html>
